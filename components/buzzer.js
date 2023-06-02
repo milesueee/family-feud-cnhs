@@ -303,3 +303,4 @@ let timerInterval = null; export default function Buzzer(props) {
     );
   }
 }
+
