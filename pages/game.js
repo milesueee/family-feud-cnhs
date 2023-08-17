@@ -21,7 +21,7 @@ export default function Game(props) {
 
   useEffect(() => {
     fetch("/api/ws").finally(() => {
-      ws.current = new WebSocket(`wss://64de06582260476f66b4ab29--gilded-axolotl-1263d9.netlify.app/api/ws`);
+      ws.current = new WebSocket(`wss://${window.location.host}/api/ws`);
       ws.current.onopen = function() {
         console.log("game connected to server");
         let session = cookieCutter.get("session");
