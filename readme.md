@@ -1,7 +1,7 @@
 <div align="center">
 <img src="./public/title.png" alt="title logo" width="200"/>
   
-
+[![Netlify Status](https://api.netlify.com/api/v1/badges/9acb8e0f-ae73-4dcb-8697-22998037666e/deploy-status)](https://app.netlify.com/sites/elaborate-pony-2e0c82/deploys)
 
 ## Start
 
